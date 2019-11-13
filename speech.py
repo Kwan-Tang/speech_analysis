@@ -53,12 +53,12 @@ def analysis(p):
 
 
 if __name__ == "__main__":
-    # os.startfile(file_string("start"))
-    # response = listen()
-    # if response == "yes":
-    #     os.startfile(file_string("ready"))
-    #     start_interview()
-    # else:
-    #     os.startfile(file_string("bye"))
+    os.startfile(file_string("start"))
+    response = listen()
+    if response == "yes":
+        os.startfile(file_string("ready"))
+        start_interview()
+    else:
+        os.startfile(file_string("bye"))
     listen()
     analysis('transcript')
