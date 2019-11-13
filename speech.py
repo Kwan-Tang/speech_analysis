@@ -50,8 +50,6 @@ def analysis(p):
     print(mysp.myspgend(p,os.getcwd()))
     print(mysp.mysppron(p,os.getcwd()))
 
-
-
 if __name__ == "__main__":
     os.startfile(file_string("start"))
     response = listen()
